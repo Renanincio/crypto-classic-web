@@ -16,7 +16,7 @@ export const Header = () => {
         <ul className={showMenu ? "md:transition-all md:delay-100 flex flex-col gap-8 text-xl md:fixed md:left-0 md:top-0 md:h-screen md:pt-12 md:px-8 md:bg-white " : "flex gap-8 text-xl md:-ml-[3000px] ml-96"}>
           <li className="list-none">
           <Link activeClass="font-bold" smooth spy to="start">
-            <a className="text-blue-950 transition-all delay-100 cursor-pointer">
+            <a onClick={() => setshowMenu(false)} className="text-blue-950 transition-all delay-100 cursor-pointer">
               Ínicio
             </a>
             </Link>
