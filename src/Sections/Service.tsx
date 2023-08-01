@@ -7,7 +7,7 @@ import Graph from "../assets/graph.png";
 export const Service = () => {
   return (
     <>
-      <section id="service" className="w-[1170px] min-h-screen mx-auto pb-12 font-Dm">
+      <section id="service" className="max-w-[1170px] min-h-screen mx-auto pb-12 font-Dm llg:px-6">
         <div className="flex justify-center flex-col">
           <div className="text-center">
             <h1 className="text-blue-950 text-3xl sm:text-[24px]">
@@ -71,7 +71,7 @@ export const Service = () => {
             src={Graph}
             alt="Imagem ilustrativa de apresentação"
           />
-          <main className="flex flex-col xl:max-w-[40%] lg:max-w-[70%] lg:mt-24 md:text-center">
+          <div className="flex flex-col xl:max-w-[40%] lg:max-w-[70%] lg:mt-24 md:text-center">
             <h1 className="text-blue-950 leading-tight text-5xl sm:text-[24px]">
               Venda de investimento total da transação do ano passado
             </h1>
@@ -85,7 +85,7 @@ export const Service = () => {
                 Saber mais
               </button>
             </div>
-          </main>
+          </div>
         </div>
       </section>
     </>

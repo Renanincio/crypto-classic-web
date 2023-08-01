@@ -8,7 +8,7 @@ export const Header = () => {
   return (
     <>
       <header className="h-24 w-full bg-white font-Dm fixed top-0 left-0">
-        <div className=" mx-auto h-full w-[1170px] flex justify-between items-center md:px-6">
+        <div className=" mx-auto h-full max-w-[1170px] flex justify-between items-center llg:px-6">
         <a>
           <img src={Logo} alt="Logo da página" />
         </a>

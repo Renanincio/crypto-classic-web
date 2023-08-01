@@ -8,7 +8,7 @@ import Map from   '../assets/map.png'
 export const Roadmap = () => {
   return (
     <>
-      <section id="roadmap" className="w-[1170px] min-h-screen mx-auto pb-12 font-Dm flex flex-col items-center">
+      <section id="roadmap" className="max-w-[1170px] min-h-screen mx-auto pb-12 font-Dm flex flex-col items-center llg:px-6">
         <div className="text-center">
           <h1 className="text-blue-950 text-3xl">
             Por que você escolhe TheCoin
@@ -69,7 +69,7 @@ export const Roadmap = () => {
 
         <div className="flex justify-between mt-28 pb-28 lg:px-3 lg:flex-col lg:items-center">
     
-        <main className="flex flex-col xl:max-w-[40%] lg:max-w-[70%] md:text-center">
+        <div className="flex flex-col xl:max-w-[40%] lg:max-w-[70%] md:text-center">
           <h1 className="text-blue-950 leading-tight text-5xl sm:text-[24px]">
           Assuma o controle de seu crédito e identidade.
           </h1>
@@ -82,7 +82,7 @@ export const Roadmap = () => {
               Comprar fichas
             </button>
           </div>
-        </main>
+        </div>
 
         <img
           className="h-[440px] w-[640px]"

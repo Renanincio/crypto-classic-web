@@ -10,14 +10,14 @@ export const Download = () => {
     <>
       <section
         id="download"
-        className="min-h-screen w-[1170px] mx-auto flex justify-between mt-16 pb-28 font-Dm lg:px-3 lg:flex-col lg:items-center"
+        className="min-h-screen max-w-[1170px] mx-auto flex justify-between mt-16 pb-28 font-Dm llg:px-6 lg:flex-col lg:items-center"
       >
         <img
           className="h-[640px] w-[600px] xl:h-[440px] xl:w-[540px] lg:mb-12 sm:h-[240px] sm:w-[280px]"
           src={OurWallet}
           alt="Imagem ilustrativa de apresentação"
         />
-        <main className="flex flex-col w-[450px] xl:max-w-[40%] lg:max-w-[70%] md:text-center">
+        <div className="flex flex-col w-[450px] xl:max-w-[40%] lg:max-w-[70%] md:text-center">
           <h1 className="text-blue-950 leading-tight text-5xl sm:text-[24px]">
             Nossa carteira é integrada para os clientes de criptomoedas
           </h1>
@@ -64,7 +64,7 @@ export const Download = () => {
           <p className="text-neutral-400 mt-8 text-[16px] sm:text-[12px]">
             *Aplicativo do Windows em breve
           </p>
-        </main>
+        </div>
       </section>
     </>
   );
