@@ -71,7 +71,7 @@ export const Service = () => {
             src={Graph}
             alt="Imagem ilustrativa de apresentação"
           />
-          <div className="flex flex-col xl:max-w-[40%] lg:max-w-[70%] lg:mt-24 md:text-center">
+          <div className="flex flex-col xl:max-w-[40%] lg:max-w-[90%] lg:mt-24 md:text-center">
             <h1 className="text-blue-950 leading-tight text-5xl sm:text-[24px]">
               Venda de investimento total da transação do ano passado
             </h1>

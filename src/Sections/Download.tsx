@@ -17,7 +17,7 @@ export const Download = () => {
           src={OurWallet}
           alt="Imagem ilustrativa de apresentação"
         />
-        <div className="flex flex-col w-[450px] xl:max-w-[40%] lg:max-w-[70%] md:text-center">
+        <div className="flex flex-col w-[450px] xl:max-w-[40%] lg:max-w-[90%] md:text-center">
           <h1 className="text-blue-950 leading-tight text-5xl sm:text-[24px]">
             Nossa carteira é integrada para os clientes de criptomoedas
           </h1>

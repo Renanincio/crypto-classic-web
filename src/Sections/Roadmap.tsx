@@ -13,7 +13,7 @@ export const Roadmap = () => {
           <h1 className="text-blue-950 text-3xl">
             Por que você escolhe TheCoin
           </h1>
-          <p className="text-neutral-500 mt-8">
+          <p className="text-neutral-500 mt-8 mb-24">
             Lorem ipsum dolor sit amet consectetur adipisicing
           </p>
         </div>
@@ -69,7 +69,7 @@ export const Roadmap = () => {
 
         <div className="flex justify-between mt-28 pb-28 lg:px-3 lg:flex-col lg:items-center">
     
-        <div className="flex flex-col xl:max-w-[40%] lg:max-w-[70%] md:text-center">
+        <div className="flex flex-col xl:max-w-[40%] lg:max-w-[90%] md:text-center">
           <h1 className="text-blue-950 leading-tight text-5xl sm:text-[24px]">
           Assuma o controle de seu crédito e identidade.
           </h1>
@@ -100,7 +100,7 @@ export const Roadmap = () => {
             </p>
           </div>
 
-      <h1 className="text-blue-950 mt-12 text-[20px]">Jurisdições de jogos de azar licenciados</h1>
+      <h1 className="text-blue-950 mt-12 text-[20px] text-center">Jurisdições de jogos de azar licenciados</h1>
 
           <ul className="flex gap-6 mt-12 md:flex-col md:gap-12 md:my-16">
             <li className="flex gap-1">

@@ -5,7 +5,7 @@ export const Start = () => {
   return (
     <>
       <section id="start" className="min-h-screen max-w-[1170px] mx-auto flex justify-between mt-40 pb-28 font-Dm llg:px-6 lg:flex-col lg:items-center">
-        <main className="flex flex-col xl:max-w-[40%] lg:max-w-[70%] md:text-center">
+        <main className="flex flex-col xl:max-w-[40%] lg:max-w-[90%] md:text-center">
           <h1 className="text-blue-950 leading-tight text-5xl sm:text-[24px]">
             Bem-vindo ao próximo nível de Token de Criptomoedas com
             transferência mais rápida
